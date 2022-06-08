@@ -167,3 +167,25 @@ nav ul li a:focus::before{
     color: red;
     text-align: center;
 }
+/* styling for mobile responsiveness */
+@media only screen and (max-width: 480px){
+    .header{
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+        justify-content: center;
+    }
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li{
+        padding-top: 20px;
+    }
+    nav ul li a::before{
+        bottom: 0px;
+    }
+    .search{
+        margin-top: 20px;
+    }
+}

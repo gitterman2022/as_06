@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Card from './Card';
+import Footer from './Footer';
 
 let apiKey = "&api_key=a3eb0c1cb7d5b75632884c545f1100ea";
 let mainUrl = "https://api.themoviedb.org/3";
@@ -86,6 +87,9 @@ const Main = () => {
                 )
             })
         }
+    </div>
+    <div>
+        <Footer/>
     </div>
     </div>
   )
