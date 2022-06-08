@@ -14,7 +14,7 @@ const Card = (movie) => {
           <p className="rating">{movie.info.vote_average}</p>
         </div>
         <div className="overview">
-          <h1>Movie plot</h1>
+          <h1>Movie plot :</h1>
           {movie.info.overview} 
         </div>
       </div>
